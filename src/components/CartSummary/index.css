@@ -1,0 +1,23 @@
+.cart-summary-container {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  color: #616e7c;
+}
+
+.summary-heading {
+  font-size: 20px;
+}
+
+.summary-btn {
+  color: #fff;
+  background-color: #0b69ff;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.total-amount {
+  color: #171f46;
+  font-size: 30px;
+}

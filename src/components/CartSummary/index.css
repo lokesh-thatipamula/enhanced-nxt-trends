@@ -21,3 +21,18 @@
   color: #171f46;
   font-size: 30px;
 }
+
+.popup-container {
+  height: 50vh;
+  width: 50vw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #0b69ff;
+}
+
+.success-msg {
+  color: green;
+}

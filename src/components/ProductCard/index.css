@@ -1,15 +1,16 @@
 .product-item {
   list-style-type: none;
   margin-bottom: 48px;
-  width: 350px;
+  width: 45%;
   flex-grow: 0;
   flex-shrink: 1;
-  margin-right: 20px;
+  margin-right: 2%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
   .product-item {
-    width: 300px;
+    width: 31%;
+    margin-right: 2%;
   }
 }
 

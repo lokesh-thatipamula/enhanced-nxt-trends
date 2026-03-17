@@ -51,7 +51,7 @@ class ProductItemDetails extends Component {
       apiStatus: apiStatusConstants.inProgress,
     })
     const jwtToken = Cookies.get('jwt_token')
-    const apiUrl = `https://apis.ccbp.in/products/${id}`
+    const apiUrl = `http://localhost:5005/products/${id}`
     const options = {
       headers: {
         Authorization: `Bearer ${jwtToken}`,
